@@ -1,0 +1,106 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+.sectionOne{
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./photos/img3.jpg');
+}
+
+.characters{
+  display: flex;
+}
+.character{
+    width: 120px;
+    height: 220px;
+    background-color: white;
+}
+
+img{
+    width: 100%;
+    height:70%;
+    margin-top: 30px;
+
+}
+
+.h2_first{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.second_div{
+    display: flex;
+    margin-left: 20px;
+    
+}
+
+.third_div{
+    margin-top: 45px;
+    
+}
+
+.enemy_choose, .thirdDiv{
+    margin-top:20px;
+    margin-bottom: 15px;
+}
+
+
+.character_health, .character_power, .enemy_health, .enemy_power{
+    color: rgb(15, 230, 15);
+    font-size: large;
+}
+
+.about_your_choose, .third_div, .enemy_choose{
+    margin-left: 20px;
+}
+
+.thirdDiv{
+    color: red;
+    margin-top: 0;
+}
+
+.chosen_enemy, .character_name{
+
+    color: white;
+    font-size: xx-large;
+}
+
+.first_button{
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.sectionTwo{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./photos/img1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+.war{
+    display: flex;
+    justify-content: space-between;
+    width: 77%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.shot, .defense{
+    font-size:15px;
+    padding:5px;
+    cursor: pointer;
+}
+
+h3{
+    color:white;
+}

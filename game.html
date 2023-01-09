@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+    
+    <section class="sectionOne">
+        <div class="about_your_choose">
+            <div class="character_name"></div>
+            <div class="character_health"></div>
+            <div class="character_power"></div>
+            <div class="character_nickname"></div>
+            <div class="character_themselves"></div>
+        </div>
+        <div class="characters_firstDiv">
+             <h2 class="h2_first">Choose Your Character :</h2>
+            <div class="characters"> 
+                <div class="character box_1" data-power="500" data-health="10" data-name="Padme">
+                     <img src="./photos/cha1.webp">
+                </div>
+                <div class="character box_2" data-power="600" data-health="10" data-name="Kylo">
+                    <img src="./photos/cha2.jpg">
+                </div>
+                <div class="character box_3" data-power="500" data-health="10" data-name="Rey">
+                    <img src="./photos/rey.jpg">
+                </div>
+                <div class="character box_4" data-power="650" data-health="10" data-name="Finn">
+                    <img src="./photos/finn.jpg">
+                </div>
+            </div>
+        </div>
+        <h2 class="enemy_choose"></h2>
+        <div class="second_div"> 
+            
+        </div>
+        <div class="third_div"> 
+            <h2 class="chosen_enemy"></h2>
+            <div class="enemy_health"></div>
+            <div class="enemy_power"></div>
+            <div class="thirdDiv"></div>
+        </div>
+        <button class="first_button">Go on the attack</button>
+    </section>
+
+    <section class="sectionTwo">
+        <div class="war">
+            <div class="war1">
+                <h3> <span class="y_name"></span></h3>
+                <h3>Power: <span class="y_power"></span></h3>
+                <h3> Health: <span class="y_health"></span></h3>
+                <div class="yourself"></div>
+            </div>
+            <div class="buttons"> 
+                <button class="shot">Shot</button>
+            </div>
+            <div class="war2">
+                <h3> <span class="e_name"></span></h3>
+                <h3>Power: <span class="e_power"></span></h3>
+                <h3> Health: <span class="e_health"></span></h3>
+                <div class="enemy_war"></div>
+            </div>
+            
+        </div>
+    </section>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>   
+    <script src="./game.js"></script>
+</body>
+</html>
